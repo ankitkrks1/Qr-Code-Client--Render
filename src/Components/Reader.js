@@ -18,6 +18,8 @@ const Reader = ({setRes}) => {
         }}
         Style={{width:'50%',height:'50%'}}
         // ViewFinder = {<p>{data}</p>}
+        constraints={{facingMode:"environment"}}
+        // constraints={{facingMode:"user"}} // always take front camera.
       />
     <h2>{data}</h2>
     </div>
