@@ -1,6 +1,8 @@
 .App {
   text-align: center;
- 
+  
+  margin: 5vh 15vw;
+  border: 1px solid;
 }
 
 .App-logo {
@@ -43,4 +45,11 @@
   border-radius: 5px;
   color: #121516;
 
+}
+
+ul{
+  margin: auto 14vw;
+}
+li {
+  padding: 1vh;
 }

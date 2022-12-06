@@ -3,9 +3,9 @@ import { QrReader } from 'react-qr-reader';
 
 const Reader = ({setRes}) => {
     const [data, setData] = useState('No Qr Found');
+    
   return (
     <div>
-      
       <QrReader
         onResult={(result, error) => {
           if (!!result) {
