@@ -20,7 +20,7 @@ function App() {
       <ul>
         <li>Can be use to share text between devices like - links</li>
         <li>Share some import text which human's can't read on the go</li>
-        <a href='https://en.wikipedia.org/wiki/QR_code'>Qr-WikiPedia</a>
+        <a href='https://en.wikipedia.org/wiki/QR_code' target='_blank'>Qr-WikiPedia</a>
       </ul>
       <hr></hr>
       <p>This Reactjs Page is desinged and managed by Mr. Ankit K Kashyap</p>
